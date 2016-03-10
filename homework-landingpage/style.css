@@ -1,0 +1,31 @@
+div {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h1 {
+  font-weight: extra bold;
+  font-size: 24px
+}
+
+h2 {
+  font-weight: semi bold;
+  font-size: 24px
+}
+
+div {
+  font-weight: semi bold;
+  font-size: 18px
+}
+
+p {
+  font-weight: lighter;
+  font-size: 13px
+}
+li {
+  font-weight: lighter;
+  font-size: 13px
+}
