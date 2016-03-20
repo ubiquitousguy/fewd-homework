@@ -96,8 +96,8 @@ header nav ul li {
 header nav ul li a {
   color: #f9e42e;
 }
-#main {
-  margin-top: 80px;
+.main {
+  margin-top: 10px;
 }
 #posts {
   width: 700px;
@@ -114,19 +114,25 @@ header nav ul li a {
   border-bottom: 1px solid #043049;
   padding-bottom: 40px;
   margin-bottom: 40px;
+
 }
 h2 {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 40px;
   line-height: 1.3;
   margin-bottom: 30px;
+  position: relative;
+  top: 30px;
 }
 h2 a {
   color: #043049;
 }
 
-.post img {
-  margin-bottom: 30px;
+#sidebar img {
+  /*margin-bottom: 30px;*/
+  position: relative;
+  left: 750px;
+  top: -1050px;
 }
 .post p {
   font-size: 24px;
@@ -172,13 +178,19 @@ h2 a {
 }
 
 #sidebar h3 {
-  font-size: 32px;
+  font-size: 22px;
   font-weight: 800;
   margin-bottom: 15px;
   color: #043049;
+  position: relative;
+  left: 750px;
+  top: -1100px;
 }
 #sidebar ul {
   margin-bottom: 40px;
+  position: relative;
+  left: 750px;
+  top: -1100px;
 }
 #sidebar ul li a {
   color: #043049;
@@ -188,10 +200,18 @@ h2 a {
   font-size: 22px;
   line-height: 1.1;
   margin-bottom: 40px;
+  position: relative;
+  left: 750px;
+  top: -1100px
+
 }
 #sidebar p a {
   color: #043049;
   font-weight: 600;
+  position: relative;
+  left: 750px;
+  top: -1100px
+
 }
 
 #bottom-cta {
