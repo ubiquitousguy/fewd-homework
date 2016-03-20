@@ -69,10 +69,6 @@ a {
   margin: 0 auto;
 }
 
-.logo {
-  font-size: 24px;
-  font-weight: 800;
-}
 
 header {
   background: #033048;
@@ -82,6 +78,7 @@ header {
 header .logo {
   color: #fff;
   float: left;
+  font-size: 32px;
 }
 
 header nav {
@@ -160,7 +157,7 @@ h2 a {
 .button {
   border-radius: 5px;
   font-weight: 800;
-  padding: 12px 0;
+  padding: 20px 0;
   width: 280px;
   font-size: 28px;
   text-align: center;
@@ -178,7 +175,7 @@ h2 a {
 }
 
 #sidebar h3 {
-  font-size: 22px;
+  font-size: 32px;
   font-weight: 800;
   margin-bottom: 15px;
   color: #043049;
@@ -195,6 +192,8 @@ h2 a {
 #sidebar ul li a {
   color: #043049;
   font-size: 24px;
+  position: relative;
+
 }
 #sidebar p {
   font-size: 22px;
@@ -213,8 +212,16 @@ h2 a {
   top: -1650px
 }
 
+/*#sidebar a {
+  color: #043049;
+  font-weight: 600;
+  position: relative;
+  left: 750px;
+  top: -1650px
+}*/
+
 #sidebar img {
-  top: -1650px;
+  top: -1625px;
 }
 
 #bottom-cta {
@@ -230,6 +237,11 @@ footer {
   padding: 0px:
   text-align: center;
 }
+.logo {
+  font-size: 32px;
+  font-weight: 800;
+}
+
 footer .logo {
   color: #f9e42e;
   margin-bottom: 68px;
