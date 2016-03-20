@@ -184,13 +184,13 @@ h2 a {
   color: #043049;
   position: relative;
   left: 750px;
-  top: -1100px;
+  top: -1650px;
 }
 #sidebar ul {
   margin-bottom: 40px;
   position: relative;
   left: 750px;
-  top: -1100px;
+  top: -1650px;
 }
 #sidebar ul li a {
   color: #043049;
@@ -202,7 +202,7 @@ h2 a {
   margin-bottom: 40px;
   position: relative;
   left: 750px;
-  top: -1100px
+  top: -1650px
 
 }
 #sidebar p a {
@@ -210,15 +210,18 @@ h2 a {
   font-weight: 600;
   position: relative;
   left: 750px;
-  top: -1100px
+  top: -1650px
+}
 
+#sidebar img {
+  top: -1650px;
 }
 
 #bottom-cta {
   background: #f9e42e;
   padding: 0px;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 footer {
