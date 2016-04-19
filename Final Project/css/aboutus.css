@@ -105,14 +105,13 @@ header .section {
 
 a:hover {
   text-decoration: underline;
-  background-color: brown;
+  background-color: #cccc00;
 }
 
-#test h2 {
-  float: left;
+.test h2 {
+  float: right;
   font-family: comic sans ms;
-  margin: auto;
-  height: inherit;
+
 }
 
 
@@ -128,10 +127,18 @@ a:hover {
 
 .text{
   font-size: 20px;
-  text-align:left;
+  text-align: justify;
   font-weight: bold;
   font-family: comic sans ms;
+  float: left;
+  width: 750px;
 
+}
+
+p .anna {
+  font-size: 20px;
+  text-align: justify;
+  float: right;
 }
 
 .links {
